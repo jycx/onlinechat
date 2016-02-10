@@ -137,7 +137,7 @@ $(function(){
             },
             error:function()
             {
-                alert("提交链接错误")
+                alert("提交链接错误");
                 t = setTimeout(getMsg, 300);
             }
         });
